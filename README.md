@@ -193,12 +193,12 @@ Scripts and Dockerfiles in this repository are released under the MIT License.
 If you use this pipeline, please cite the underlying tools:
 
 - Reynisson et al. (2020). NetMHCpan-4.1 and NetMHCIIpan-4.0. *Nucleic Acids Research*.
-- [Your thesis / preprint citation here]
+- Ortega-Batista, A. C. (2026). peps-pipeline: A reproducible peptidome prediction pipeline for *Leishmania*. Zenodo. https://doi.org/10.5281/zenodo.20837440
 
 ---
 
 ## Contact
 
-A. Cristina Ortega — Universidad Tecnologica de Panama  
+Ana Cristina Ortega — Universidad Tecnologica de Panama  
 GitHub: @pepperandhoney 
-email: ana.ortega6@utp.ac.pa
+Email: ana.ortega6@utp.ac.pa
