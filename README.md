@@ -48,6 +48,18 @@ peps-pipeline/
 | `gcloud` auth | configured | `gcloud auth application-default login` |
 
 > **Note:** NetMHCpan and NetMHC2pan are licensed tools from DTU Health Tech. You must obtain your own academic license and build the Docker images yourself using the Dockerfiles provided. The pre-built images are **not** distributed with this repository.
+---
+
+## Infrastructure
+
+This pipeline was designed and tested on **Google Cloud VMs** with:
+- Data disk mounted at `/data/`
+- Outputs backed up to **Google Cloud Storage (GCS)**
+- Scripts located at `~/scripts/`
+
+It can be adapted to other Linux environments by overriding the environment 
+variables `SCRIPTS_DIR`, `DATA_IN`, and `DATA_OUT` in each script, and 
+replacing `gs_backupbucket.sh` with your own backup solution.
 
 ---
 
