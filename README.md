@@ -9,6 +9,30 @@ A reproducible, Docker-based pipeline for large-scale MHC-I and MHC-II peptide b
 ## Scientific context
 
 This pipeline is part of a reverse vaccinology project aimed at identifying candidate T-cell epitopes across 11 *Leishmania* proteomes. It predicts peptide–MHC binding for both class I (9-mers) and class II (15-mers) molecules using a curated set of HLA alleles relevant to Latin American populations.
+---
+
+## Pipeline Architecture
+
+The PEPS pipeline implements a scalable Docker-based workflow for high-throughput MHC peptide binding prediction. Prediction jobs are automatically distributed across multiple CPU cores, where each independent combination of proteome, HLA allele, and peptide length is executed in a separate Docker container. Results are subsequently parsed, merged, archived, and prepared for downstream peptide prioritization analyses.
+
+<p align="center">
+  <img src="figures/peps_pipeline_architecture.svg"
+       alt="PEPS Pipeline Architecture"
+       width="1000">
+</p>
+
+> **Figure 1.** High-level architecture of the PEPS pipeline. A reusable Docker image is instantiated independently across multiple CPU cores, enabling scalable prediction of peptide–MHC binding. Prediction outputs are parsed, integrated, archived, and transformed into analysis-ready datasets for downstream prioritization.
+
+**Overview**
+
+1. Load proteomes and configuration files.
+2. Schedule prediction jobs (`queue.sh` → `end2end.sh`).
+3. Build or reuse the Docker image containing NetMHCpan/NetMHCIIpan.
+4. Execute one prediction job per **proteome × HLA allele × peptide length** in parallel.
+5. Parse and integrate prediction outputs.
+6. Backup prediction results to Google Cloud Storage.
+7. Clean local working directories.
+8. Produce analysis-ready tables for downstream redundancy reduction, peptide prioritization, and structural analyses.
 
 ---
 
