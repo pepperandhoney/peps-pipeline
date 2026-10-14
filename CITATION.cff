@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "peps-pipeline v3: a reproducible peptidome prediction pipeline"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Ortega-Batista
+    given-names: Ana Cristina
+    affiliation: Universidad Tecnologica de Panama
+    email: ana.ortega6@utp.ac.pa
+version: 3.0.0
+license: MIT
+repository-code: "https://github.com/pepperandhoney/peps-pipeline"
+abstract: >-
+  Docker-based pipeline for large-scale MHC-I and MHC-II peptide binding
+  prediction. Protein identifiers are renumbered to survive the 15-character
+  header truncation applied by NetMHCpan and restored after parsing, so the
+  protein of origin is never lost. Version 3 adds multilength campaigns, a
+  massive-batch mode built on GNU Parallel, and a shared library that gives
+  every stage the same conventions.

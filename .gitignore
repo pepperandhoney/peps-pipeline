@@ -1,0 +1,15 @@
+# Licensed tools — never commit these
+docker/*/*.tar.gz
+docker/*/*.tgz
+
+# Local data
+*.faa
+*.fasta
+*.tsv.gz
+!configs/*.tsv
+!tests/fixtures/*.faa
+
+# Logs and temporaries
+*.log
+*.tmp
+.DS_Store

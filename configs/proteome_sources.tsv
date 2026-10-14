@@ -1,0 +1,35 @@
+prefix	organism	species	strain	subtype	year	uniprot_proteome	taxid	n_prot_aprox	note
+LBRA	leishmania	Leishmania braziliensis	MHOM/BR/75/M2904	-	-	-	5660	8100	subgenero Viannia
+LDON	leishmania	Leishmania donovani	BPK282A1	-	-	-	5661	8000	subgenero Leishmania
+LGUY	leishmania	Leishmania guyanensis	MHOM/BR/1975/M4147	-	-	-	5670	8300	subgenero Viannia
+LINF	leishmania	Leishmania infantum	JPCM5	-	-	UP000008153	5671	8200	subgenero Leishmania
+LLIN	leishmania	Leishmania lindenbergi	-	-	-	-	318825	8000	subgenero Viannia
+LMAJ	leishmania	Leishmania major	Friedlin	-	-	UP000000542	5664	8400	subgenero Leishmania
+LMEX	leishmania	Leishmania mexicana	MHOM/GT/2001/U1103	-	-	UP000006158	5665	8250	subgenero Leishmania
+LNAI	leishmania	Leishmania naiffi	-	-	-	-	78788	8100	subgenero Viannia
+LPAN	leishmania	Leishmania panamensis	MHOM/COL/81/L13	-	-	UP000054945	5679	8401	subgenero Viannia
+LSHA	leishmania	Leishmania shawi	-	-	-	-	5680	8000	subgenero Viannia
+INF1	influenza	Influenza A virus	A/Puerto Rico/8/1934	H1N1	1934	UP000009255	211044	11	cepa de laboratorio de referencia
+INF2	influenza	Influenza A virus	A/Aichi/2/1968	H3N2	1968	UP000137932	387139	11	pandemia de Hong Kong
+INF3	influenza	Influenza A virus	A/New York/392/2004	H3N2	2004	UP000116362	335341	11	estacional
+INF4	influenza	Influenza A virus	A/California/07/2009	H1N1	2009	UP000207659	641809	11	pandemia 2009
+INF5	influenza	Influenza A virus	A/Brisbane/59/2007	H1N1	2007	-	416389	11	estacional pre-pandemia
+INF6	influenza	Influenza A virus	A/Perth/16/2009	H3N2	2009	-	644289	11	estacional
+MTUB	tuberculosis	Mycobacterium tuberculosis	ATCC 25618 / H37Rv	-	-	UP000001584	83332	3993	cepa de referencia mundial
+PFAL	malaria	Plasmodium falciparum	3D7	-	-	UP000001450	36329	5400	cepa de referencia mundial
+IA01	influenza_a	Influenza A virus	A/Puerto Rico/8/1934	H1N1	1934	UP000009255	211044	13	proteoma de referencia, UniProtKB
+IA02	influenza_a	Influenza A virus	A/Hong Kong/1/1968	H3N2	1968	UP000139204	-	10	no referencia, UniParc
+IA03	influenza_a	Influenza A virus	A/Beijing/39/1975	H3N2	1975	UP000000827	-	11	no referencia, UniParc
+IA04	influenza_a	Influenza A virus	A/USSR/90/1977	H1N1	1977	UP000007793	-	13	no referencia, UniParc
+IA05	influenza_a	Influenza A virus	A/Philippines/2/1982	H3N2	1982	UP000129648	-	11	no referencia, UniParc
+IA06	influenza_a	Influenza A virus	A/Chile/1/1983	H1N1	1983	UP000008582	-	13	no referencia, UniParc
+IA07	influenza_a	Influenza A virus	A/Beijing/352/1989	H3N2	1989	UP000116744	-	10	no referencia, UniParc
+IA08	influenza_a	Influenza A virus	A/Nanchang/11/1996	H1N1	1996	UP000008586	-	12	no referencia, UniParc
+IB01	influenza_b	Influenza B virus	B/Victoria/02/1987	-	1987	UP000143172	-	11	linaje Victoria, UniParc
+IB02	influenza_b	Influenza B virus	B/Yamagata/16/1988	-	1988	UP000125939	-	10	linaje Yamagata, UniParc
+IB03	influenza_b	Influenza B virus	B/Lee/1940	-	1940	UP000008158	518987	11	proteoma de referencia, UniProtKB
+PF01	plasmodium	Plasmodium falciparum	3D7	-	-	UP000001450	36329	5361	cepa de referencia mundial, UniProtKB
+PF02	plasmodium	Plasmodium falciparum	Dd2	-	-	UP000054282	-	5132	sudeste asiatico, UniParc
+PF03	plasmodium	Plasmodium falciparum	HB3	-	-	UP000054289	-	5449	Honduras, UniParc
+PF04	plasmodium	Plasmodium falciparum	7G8	-	-	UP000030688	-	6297	Brasil, UniParc
+PF05	plasmodium	Plasmodium falciparum	FCH/4	-	-	UP000030656	-	5762	Africa, UniParc

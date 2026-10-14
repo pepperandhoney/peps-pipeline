@@ -1,11 +1,27 @@
-Lbra	clean	LbrM_2025_clean.faa	Lbra
-Ldon	clean	Ldon_GCF_000227135.1_protein.clean.faa	Ldon
-Lguy	clean	Lguy_GCA_024970365.1_protein.clean.faa	Lguy
-Linf	clean	Linf_GCA_000002875.2_clean.faa	Linf
-Llin	original	Llin_GCA_962240435.1_protein.faa	Llin
-Lmaj	clean	Lmaj_GCF_000002725.2_protein.clean.faa	Lmaj
-Lmex	clean	Lmex_GCA_000234665.4_clean.faa	Lmex
-Lnai	original	Lnai_GCA_962239345.1_protein.faa	Lnai
-Lpan_v1	clean	Lpan_GCA_000755165.1_protein.clean.faa	Lpan_v1
-Lpan_v2	clean	Lpan_GCA_000755165.2_protein.clean.faa	Lpan_v2
-Lsha	original	Lsha_GCA_040363645.1_protein.faa	Lsha
+key	organism	input_mode	fasta_file	prefix
+LBRA	leishmania	renamed	LBRA.faa	LBRA
+LDON	leishmania	renamed	LDON.faa	LDON
+LGUY	leishmania	renamed	LGUY.faa	LGUY
+LINF	leishmania	renamed	LINF.faa	LINF
+LLIN	leishmania	renamed	LLIN.faa	LLIN
+LMAJ	leishmania	renamed	LMAJ.faa	LMAJ
+LMEX	leishmania	renamed	LMEX.faa	LMEX
+LNAI	leishmania	renamed	LNAI.faa	LNAI
+LPAN	leishmania	renamed	LPAN.faa	LPAN
+LSHA	leishmania	renamed	LSHA.faa	LSHA
+IA01	influenza_a	renamed	IA01.faa	IA01
+IA02	influenza_a	renamed	IA02.faa	IA02
+IA03	influenza_a	renamed	IA03.faa	IA03
+IA04	influenza_a	renamed	IA04.faa	IA04
+IA05	influenza_a	renamed	IA05.faa	IA05
+IA06	influenza_a	renamed	IA06.faa	IA06
+IA07	influenza_a	renamed	IA07.faa	IA07
+IA08	influenza_a	renamed	IA08.faa	IA08
+IB01	influenza_b	renamed	IB01.faa	IB01
+IB02	influenza_b	renamed	IB02.faa	IB02
+IB03	influenza_b	renamed	IB03.faa	IB03
+PF01	plasmodium	renamed	PF01.faa	PF01
+PF02	plasmodium	renamed	PF02.faa	PF02
+PF03	plasmodium	renamed	PF03.faa	PF03
+PF04	plasmodium	renamed	PF04.faa	PF04
+PF05	plasmodium	renamed	PF05.faa	PF05
